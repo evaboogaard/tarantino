@@ -691,12 +691,6 @@ body {
     height: 600px;
 }
 
-/* 'hide' and 'show' classes to add in js */
-
-.hide {
-    visibility: hidden;
-}
-
 /* if statement said yuhhhpppp */
 
 .killbill {
