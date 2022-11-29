@@ -1,0 +1,718 @@
+/* base  */
+
+body {
+    background-color: black;
+}
+
+.base {
+    height: 650px;
+    margin-left: 230px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+/* menu buttons */
+
+.menubutton1 {
+    position: absolute;
+    height: 80px;
+    margin-left: 970px;
+    margin-top: 30px;
+    z-index: 2;
+    transition: 0.3s ease-in-out;
+}
+
+.menubutton1:hover {
+    opacity: 0%;
+    transition: 0.3s ease-in-out;
+}
+
+.menubutton2 {
+    position: absolute;
+    height: 80px;
+    margin-left: 1070px;
+    margin-top: 125px;
+    z-index: 2;
+    transition: 0.3s ease-in-out;
+}
+
+.menubutton2:hover {
+    opacity: 0%;
+    transition: 0.3s ease-in-out;
+}
+
+.menubutton3 {
+    position: absolute;
+    height: 80px;
+    margin-left: 970px;
+    margin-top: 215px;
+    z-index: 2;
+    transition: 0.3s ease-in-out;
+}
+
+.menubutton3:hover {
+    opacity: 0%;
+    transition: 0.3s ease-in-out;
+}
+
+.menubutton4 {
+    position: absolute;
+    height: 80px;
+    margin-left: 1070px;
+    margin-top: 305px;
+    z-index: 2;
+    transition: 0.3s ease-in-out;
+}
+
+.menubutton4:hover {
+    opacity: 0%;
+    transition: 0.3s ease-in-out;
+}
+
+.menubutton5 {
+    position: absolute;
+    height: 80px;
+    margin-left: 970px;
+    margin-top: 395px;
+    z-index: 2;
+    transition: 0.3s ease-in-out;
+}
+
+.menubutton5:hover {
+    opacity: 0%;
+    transition: 0.3s ease-in-out;
+}
+
+.menubutton6 {
+    position: absolute;
+    height: 80px;
+    margin-left: 1070px;
+    margin-top: 485px;
+    z-index: 2;
+    transition: 0.3s ease-in-out;
+}
+
+.menubutton6:hover {
+    opacity: 0%;
+    transition: 0.3s ease-in-out;
+}
+
+.menubutton7 {
+    position: absolute;
+    height: 80px;
+    margin-left: 970px;
+    margin-top: 575px;
+    z-index: 2;
+    transition: 0.3s ease-in-out;
+}
+
+.menubutton7:hover {
+    opacity: 0%;
+    transition: 0.3s ease-in-out;
+}
+
+/* selected menu buttons */
+
+.menubuttonselected1 {
+    position: absolute;
+    height: 80px;
+    margin-left: 970px;
+    margin-top: 30px;
+    z-index: 1;
+}
+
+.menubuttonselected2 {
+    position: absolute;
+    height: 80px;
+    margin-left: 1070px;
+    margin-top: 125px;
+    z-index: 1;
+}
+
+.menubuttonselected3 {
+    position: absolute;
+    height: 80px;
+    margin-left: 970px;
+    margin-top: 215px;
+    z-index: 1;
+}
+
+.menubuttonselected4 {
+    position: absolute;
+    height: 80px;
+    margin-left: 1070px;
+    margin-top: 305px;
+    z-index: 1;
+}
+
+.menubuttonselected5 {
+    position: absolute;
+    height: 80px;
+    margin-left: 970px;
+    margin-top: 395px;
+    z-index: 1;
+}
+
+.menubuttonselected6 {
+    position: absolute;
+    height: 80px;
+    margin-left: 1070px;
+    margin-top: 485px;
+    z-index: 1;
+}
+
+.menubuttonselected7 {
+    position: absolute;
+    height: 80px;
+    margin-left: 970px;
+    margin-top: 575px;
+    z-index: 1;
+}
+
+.dosomething {
+    position: absolute;
+    height: 60px;
+    margin-left: 850px;
+    margin-top: 50px;
+    z-index: 9;
+}
+
+/* background buttons */
+
+#backgroundbutton1 {
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 70px;
+    height: 130px;
+    z-index: 1;
+}
+
+#backgroundbutton1:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+#backgroundbutton2 {
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 160px;
+    height: 130px;
+    z-index: 1;
+}
+
+#backgroundbutton2:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+#backgroundbutton3 {
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 250px;
+    height: 130px;
+    z-index: 1;
+}
+
+#backgroundbutton3:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+#backgroundbutton4 {
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 340px;
+    height: 130px;
+    z-index: 1;
+}
+
+#backgroundbutton4:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+#backgroundbutton5 {
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 430px;
+    height: 130px;
+    z-index: 1;
+}
+
+#backgroundbutton5:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+#backgroundbutton6 {
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 520px;
+    height: 130px;
+    z-index: 1;
+}
+
+#backgroundbutton6:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+/* backgrounds */
+
+#background {
+    height: 650px;
+    margin-left: 540px;
+    margin-top: 30px;
+    position: absolute;
+    z-index: 2;
+}
+
+/* skintone buttons */
+
+.skintonebutton1 {
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 75px;
+    height: 110px;
+    z-index: 1;
+}
+
+.skintonebutton1:hover {
+    opacity: 70%;
+    transition: 0.2s ease-in-out;
+}
+
+.skintonebutton2 {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 185px;
+    height: 110px;
+    z-index: 1;
+}
+
+.skintonebutton2:hover {
+    opacity: 70%;
+    transition: 0.2s ease-in-out;
+}
+
+.skintonebutton3 {
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 295px;
+    height: 110px;
+    z-index: 1;
+}
+
+.skintonebutton3:hover {
+    opacity: 70%;
+    transition: 0.2s ease-in-out;
+}
+
+.skintonebutton4 {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 405px;
+    height: 110px;
+    z-index: 1;
+}
+
+.skintonebutton4:hover {
+    opacity: 70%;
+    transition: 0.2s ease-in-out;
+}
+
+.skintonebutton5 {
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 515px;
+    height: 110px;
+    z-index: 1;
+}
+
+.skintonebutton5:hover {
+    opacity: 70%;
+    transition: 0.2s ease-in-out;
+}
+
+/* skintones  */
+
+#skintone {
+    height: 600px;
+    width: auto;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 540px;
+    z-index: 3;
+}
+
+/* hair buttons */
+
+.hairbutton1 {
+    position: absolute;
+    z-index: 1;
+    margin-left: 270px;
+    margin-top: 75px;
+    height: 160px;
+}
+
+.hairbutton1:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+.hairbutton2 {
+    position: absolute;
+    z-index: 1;
+    margin-left: 350px;
+    margin-top: 165px;
+    height: 160px;
+}
+
+.hairbutton2:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+.hairbutton3 {
+    position: absolute;
+    z-index: 1;
+    margin-left: 270px;
+    margin-top: 330px;
+    height: 160px;
+}
+
+.hairbutton3:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+.hairbutton4 {
+    position: absolute;
+    z-index: 1;
+    margin-left: 350px;
+    margin-top: 420px;
+    height: 160px;
+}
+
+.hairbutton4:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+.hairbutton5 {
+    position: absolute;
+    z-index: 1;
+    margin-left: 270px;
+    margin-top: 530px;
+    height: 160px;
+}
+
+.hairbutton5:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+/* hair */
+
+#hair {
+    position: absolute;
+    z-index: 7;
+    margin-top: 60px;
+    margin-left: 540px;
+    height: 600px;
+}
+
+/* top buttons */
+
+.topbutton1 {
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 75px;
+    height: 140px;
+    z-index: 1;
+}
+
+.topbutton1:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+.topbutton2 {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 210px;
+    height: 140px;
+    z-index: 1;
+}
+
+.topbutton2:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+.topbutton3 {
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 350px;
+    height: 140px;
+    z-index: 1;
+}
+
+.topbutton3:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+.topbutton4 {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 490px;
+    height: 140px;
+    z-index: 1;
+}
+
+.topbutton4:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+/* tops */
+
+#top {
+    position: absolute;
+    z-index: 6;
+    margin-top: 60px;
+    margin-left: 540px;
+    height: 600px;
+}
+
+/* bottom buttons */
+
+.bottombutton1 {
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 75px;
+    height: 160px;
+    z-index: 1;
+}
+
+.bottombutton1:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+.bottombutton2 {
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 220px;
+    height: 160px;
+    z-index: 1;
+}
+
+.bottombutton2:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+.bottombutton3 {
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 335px;
+    height: 160px;
+    z-index: 1;
+}
+
+.bottombutton3:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+.bottombutton4 {
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 450px;
+    height: 160px;
+    z-index: 1;
+}
+
+.bottombutton4:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+/* bottoms */
+
+#bottom {
+    position: absolute;
+    z-index: 5;
+    margin-top: 60px;
+    margin-left: 540px;
+    height: 600px;
+}
+
+/* shoes buttons */
+
+.shoesbutton1 {
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 75px;
+    height: 100px;
+    z-index: 1;
+}
+
+.shoesbutton1:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+.shoesbutton2 {
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 180px;
+    height: 120px;
+    z-index: 1;
+}
+
+.shoesbutton2:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+.shoesbutton3 {
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 380px;
+    height: 55px;
+    z-index: 1;
+}
+
+.shoesbutton3:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+.shoesbutton4 {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 500px;
+    height: 55px;
+    z-index: 1;
+}
+
+.shoesbutton4:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+/* shoes */
+
+#shoes {
+    position: absolute;
+    z-index: 4;
+    margin-top: 60px;
+    margin-left: 540px;
+    height: 600px;
+}
+
+/* accessory buttons */
+
+.accessorybutton1 {
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 75px;
+    height: 130px;
+    z-index: 1;
+}
+
+.accessorybutton1:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+.accessorybutton2 {
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 210px;
+    height: 90px;
+    z-index: 1;
+}
+
+.accessorybutton2:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+.accessorybutton3 {
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 310px;
+    height: 130px;
+    z-index: 1;
+}
+
+.accessorybutton3:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+.accessorybutton4 {
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 410px;
+    height: 130px;
+    z-index: 1;
+}
+
+.accessorybutton4:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+.accessorybutton5 {
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 525px;
+    height: 110px;
+    z-index: 1;
+}
+
+.accessorybutton5:hover {
+    opacity: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+/* accessories */
+
+#accessory {
+    position: absolute;
+    z-index: 8;
+    margin-top: 60px;
+    margin-left: 540px;
+    height: 600px;
+}
+
+/* 'hide' and 'show' classes to add in js */
+
+.hide {
+    visibility: hidden;
+}
+
+/* if statement said yuhhhpppp */
+
+.killbill {
+    background-image: url("../images/backgrounds/killbillbackground.png");
+}
+
+/* opening screen */
+
+#epic {
+    position: absolute;
+    display: block;
+    height: 100%;
+    margin-left: 70px;
+}
+
+.fade {
+    opacity: 0;
+    transition: 5s;
+}
